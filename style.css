@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+
+  .card {
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    display: flex;
+    overflow: hidden;
+  }
+
+  .card__image {
+    width: 40%;
+    background: url('https://via.placeholder.com/300') center/cover no-repeat;
+  }
+
+  .card__content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+
+  .card__headline {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .card__author {
+    font-size: 14px;
+    color: #777;
+  }
+
+  .card__date {
+    font-size: 14px;
+    color: #777;
+  }
+
+  .card__description {
+    font-size: 16px;
+    color: #444;
+    margin-top: 10px;
+  }
+
+  .card__read-more {
+    font-size: 14px;
+    color: #007bff;
+    cursor: pointer;
+  }
